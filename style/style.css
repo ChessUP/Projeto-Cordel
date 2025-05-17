@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+header {
+    background-color: black;
+    color: white;
+
+    padding: 55px;
+    margin: -8px;
+
+    text-align: center;
+}
+
+
+header > h1 {
+    font-family: 'Passion One', sans-serif;
+    color: white;
+    font-size: 10vw;
+    margin: 0px;
+}
+
+header > p {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fundoBranco {
+    font-family: "Sriracha", cursive;;
+    width: 400px;
+    font-size: 35px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.fundoImg > p {
+    font-family: "Sriracha", cursive;;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.479);
+    font-size: 40px;
+    padding: 10px;
+    width: 400px;
+    margin: 50px;
+    margin-top: 50px;
+}
+
+#imgUm {
+    background-color: black;
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 10px;
+    margin: -8px;
+    box-shadow: inset 1px 1px 15px black;
+
+    text-shadow: 1px 1px 1px black;
+}
+
+#imgDois {
+    background-color: black;
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 10px;
+    margin: -8px;
+    box-shadow: inset 1px 1px 15px black
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 16px;
+
+    margin: -8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
